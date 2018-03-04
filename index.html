@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Economic indicators in Ukraine</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles.css" rel="stylesheet" type="text/css">
+        
+        <script src="https://www.gstatic.com/firebasejs/4.9.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase-database.js"></script>
+        <script>
+            // Initialize Firebase
+            var config = {
+                apiKey: "AIzaSyASZAThdTL3kEV6z744ZyMBbY3JHSS_8Vw",
+                authDomain: "test-task-3.firebaseapp.com",
+                databaseURL: "https://test-task-3.firebaseio.com",
+                projectId: "test-task-3",
+                storageBucket: "test-task-3.appspot.com",
+                messagingSenderId: "291251276189"
+            };
+            firebase.initializeApp(config);
+        </script>
+
+        <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+        <script type="text/babel" src="app.js"></script>
+
+    </head>
+    
+    <body>
+        <div id="react-root"></div>
+    </body>
+
+</html>
